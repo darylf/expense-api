@@ -16,6 +16,7 @@ gem 'active_model_serializers', '~> 0.10.0'
 group :development, :test do
   gem 'byebug', platform: :mri
   gem 'factory_girl_rails'
+  gem 'rails-controller-testing'
   gem 'rspec-rails', '~> 3.5'
 end
 
