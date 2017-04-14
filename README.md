@@ -1,24 +1,39 @@
-# README
+# Expense API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+http://darylfritz.com/ *(Note: public url tbd)*
 
-Things you may want to cover:
+## Introduction
 
-* Ruby version
+A JSON service to support a future expense tracking application for families or 
+small businesses to monitor their expenses and any changes to their budget.
 
-* System dependencies
+## Features
 
-* Configuration
+* Expense repository
+* Vendor repository
 
-* Database creation
+## Credits
 
-* Database initialization
+* Daryl Fritz
 
-* How to run the test suite
+## License
 
-* Services (job queues, cache servers, search engines, etc.)
+Copyright (c) 2017 Daryl Fritz.
 
-* Deployment instructions
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to deal
+so, subject to the following conditions:
 
-* ...
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
