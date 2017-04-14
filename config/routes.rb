@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  resources :categories, only: %i[index show]
+  namespace :api do
+    namespace :v1 do
+      resources :vendors
+      resources :categories, only: %i[index show]
+    end
+  end
 end

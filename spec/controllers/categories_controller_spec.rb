@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe CategoriesController, type: :controller do
+RSpec.describe API::V1::CategoriesController, type: :controller do
   let(:valid_attributes) { FactoryGirl.attributes_for(:category) }
 
   let(:invalid_attributes) { FactoryGirl.attributes_for(:category, name: '') }

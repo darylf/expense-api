@@ -1,7 +1,7 @@
 FactoryGirl.define do
-  factory :category do
+  factory :vendor do
     sequence :name do |n|
-      "#{Faker::Commerce.department} #{n}"
+      "#{Faker::Company.name} #{n}"
     end
   end
 end
